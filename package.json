@@ -1,0 +1,29 @@
+{
+	"name": "@knesk/www",
+	"version": "0.0.1",
+	"main": "index.js",
+	"author": "Aman Khanakia <aman@knesk.com>",
+	"license": "MIT",
+	"description": "A Extended Http Server Node.js Module based on Express.js",
+	"scripts": {
+		"build": "rollup -c",
+		"dev": "rollup -c -w"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:jeoga/www.git"
+	},
+	"dependencies": {
+		"@knesk/hook": "^0.0.1",
+		"body-parser": "^1.18.3",
+		"compression": "^1.7.2",
+		"cookie-parser": "^1.4.3",
+		"cors": "^2.8.4",
+		"ejs": "^2.6.1",
+		"express": "^4.16.3",
+		"helmet": "^3.12.2",
+		"helmet-csp": "^2.7.1",
+		"mocha": "^3.0.1",
+		"morgan": "^1.9.0"
+	}
+}
